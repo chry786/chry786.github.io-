@@ -18,7 +18,7 @@ main {
     allocates this height to the carousel images, so that the carousel, navbar, and second-navbar can all fit on the page (regardless of screen size)
  */
   height: calc(100vh - 56px);
-  object-fit: scale-down;  /* "object-fit" property has various options for fitting an image within a specified space (works because both the img width and height are specified) */
+  object-fit:  scale-down /* "object-fit" property has various options for fitting an image within a specified space (works because both the img width and height are specified) */
 }
 
 #second-navbar {
@@ -48,10 +48,6 @@ hr {
   border-radius: 50%;
 }
 
-#meet-the-team img{
-  width: 100%;  /* fit the image within the div */
-  margin: 15px 0;
-}
 
 footer {
   display: flex;  /* allows use of "justify-content" property */
@@ -78,7 +74,7 @@ footer a {
 }
 
 .social-icon:hover {
-  color: rgb(0, 0, 0);  /* change color when hover over the link */
+  color: red;  /* change color when hover over the link */
 }
 
 #go-top-button {
@@ -105,3 +101,9 @@ footer a {
   background-color: black;
   outline: black;
 }
+
+.btn-primary:hover{
+  color: red;
+  background-color: white;
+}
+
