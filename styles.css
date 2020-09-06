@@ -10,7 +10,7 @@ main {
 }
 
 #carouselExampleIndicators img {
-  width: 50%;  /* fit the image within the div */
+  width: 100%;  /* fit the image within the div */
   /* FANCY ADVANCED CSS - calc():
          calculates the height of the full page (100vh)
          minus the height of the navbar (56px)
