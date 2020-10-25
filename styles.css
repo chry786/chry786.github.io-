@@ -100,9 +100,6 @@ footer a {
 .btn-primary{
   background-color: black;
   outline: black;
-  outline: none;
-  box-shadow: none;
-
 }
 
 .btn-primary:hover{
