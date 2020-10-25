@@ -108,3 +108,6 @@ footer a {
   outline: none;
 }
 
+.nav.navbar-nav.navbar-right li a {
+  color: red;
+}
